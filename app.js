@@ -9,7 +9,7 @@ var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 // connect to Your MongoDB Atlas Database
-mongoose.connect("mongodb+srv://tushar73303:<Keiw9LAlXxVfvXee>@senecaweb.pcg58hk.mongodb.net/?retryWrites=true&w=majority");// mongodb string
+mongoose.connect("mongodb+srv://tushar73303:Keiw9LAlXxVfvXee@senecaweb.pcg58hk.mongodb.net/?retryWrites=true&w=majority");// mongodb string
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
